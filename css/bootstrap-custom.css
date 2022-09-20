@@ -1,0 +1,118 @@
+.navbar-light {
+	background-color: #7c7c7c; !important;
+	font-size:18px;	
+	color: aliceblue;
+	  
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  
+background: linear-gradient(to right, #7c7c7c, #b92b27);
+	}
+
+.navbar-light .navbar-nav .nav-link{
+	color:var(--color-negro);	
+	font-weight:400;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:var(--menu-hover);
+}
+.navbar-light .navbar-nav .active .nav-link{
+	background-color:transparent;
+	color:var(--menu-hover);
+}
+.navbar-light .navbar-nav .active .nav-link:hover{
+	background-color:transparent;
+	color:var(--menu-hover);
+}
+
+
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #7D3BAF;	
+}
+.navbar-light .navbar-nav .show > .nav-link:focus,
+.navbar-light .navbar-nav .show > .nav-link:hover{
+    color: #7D3BAF;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color:#212121;
+	border:0;
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;	
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#fff;
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: #ff5518;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler{
+	background-color: transparent;
+	border:1px solid #000;
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: transparent;
+	cursor:pointer;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+    background-color: #8B2588;
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	color:#FFFFFF;		
+	height: auto;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#1F81BF;
+}
+.navbar-light .navbar-brand img{
+	
+}
+.navbar-toggler i{
+	color: #000;
+	font-size: 30px;
+}
+
+
+.carousel-caption{
+	display: grid !important;
+	align-content: center;
+	height: 100%;
+}
+.carousel-item{
+	height: 1920px; 
+}
+
+
+
+/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
+.carousel .carousel-item {
+  height: 100vh;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit: scale-down;
+    object-position: center;
+    height: 100vh;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+

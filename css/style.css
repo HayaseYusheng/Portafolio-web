@@ -1,0 +1,79 @@
+
+body{
+	background: #c31432; 
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+background: linear-gradient(to right, #240b36, #c31432); 
+
+}
+header{
+    background-color: #eee;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+h1{
+	
+	Color: aliceblue;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	align-content: center;
+	text-align: center;
+	
+}
+.TitContact{
+	font-size: 	20px;
+	color: aliceblue;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.Ending{
+	font-size: 	12px;
+	color: aliceblue;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-align: center;
+}
+.texto{
+	font-size: 	12px;
+	color: aliceblue;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+}
+.imagen{
+	height: 125px;
+	align-content: center;
+	padding-left: 550px;
+	
+}
+.btn-contact{
+	color: aliceblue;
+	border: medium #FFFFFF;
+	background-color:black;
+	
+}
+.inicios{
+	padding-top: 40px;
+	font-size: 	20px;
+	color: aliceblue;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+}
+.texto{
+	padding-top: 40px;
+	font-size: 	20px;
+	color: aliceblue;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+}
